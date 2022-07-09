@@ -1,1 +1,1 @@
-# JetBrains-
+# JetBrains
