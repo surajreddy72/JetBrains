@@ -1,1 +1,2 @@
-# JetBrains
+#### Some projects from JetBrains Academy
+
