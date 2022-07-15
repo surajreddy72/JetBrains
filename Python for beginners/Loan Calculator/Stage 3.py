@@ -27,8 +27,11 @@ def ifn():
     num_of_payments = math.ceil(math.log(val, nom_i+1))
     years = num_of_payments // 12
     months = num_of_payments % 12
-    print("It will take " + str(years) + " years and " + str(months) + " months to repay this loan!")
-
+    if months > 0:
+        print("It will take " + str(years) + " years and " +
+          str(months) + " months to repay this loan!")
+    else :
+        print("It will take " + str(years) + " years to repay this loan!")
 def ifa():
     p = float(input("Enter the loan principal:"))
     n = float(input("Enter the number of periods:"))
